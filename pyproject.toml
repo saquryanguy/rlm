@@ -71,6 +71,7 @@ python_version = "3.9"
 warn_return_any = true
 warn_unused_configs = true
 ignore_missing_imports = true
+disallow_untyped_defs = true  # enforce type annotations on all functions
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
